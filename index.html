@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Подборка блюд</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            background-color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #4caf50;
+            color: white;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        td img {
+            border-radius: 10px;
+        }
+        td a {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Название блюда</th>
+        <th>Рейтинг</th>
+        <th>Ссылка на рецепт</th>
+        <th>Фото блюда</th>
+    </tr>
+
+    <tr>
+        <td>Таджикский плов в казане</td>
+        <td>7</td>
+        <td><a href="https://www.gastronom.ru/recipe/58398/tadzhikskij-plov-v-kazane">Рецепт</a></td>
+        <td><img src="https://img.freepik.com/free-photo/top-close-up-view-pilaf-bowls-colorful-spices-pilaf-tablecloth-garlic_140725-78652.jpg?w=900" width="200px"></td>
+    </tr>
+
+    <tr>
+        <td>Классический хачапури по-мегрельски</td>
+        <td>6</td>
+        <td><a href="https://www.gastronom.ru/recipe/57237/klassicheskij-hachapuri-po-megrelski">Рецепт</a></td>
+        <td><img src="https://img.freepik.com/free-photo/top-view-delicious-egg-bread-baked-sliced-with-cheese-flour-grey-space_140725-75610.jpg?w=900" width="200px"></td>
+    </tr>
+
+    <tr>
+        <td>Салат "Филадельфия"</td>
+        <td>5</td>
+        <td><a href="https://www.gastronom.ru/recipe/57928/salat-filadelfija">Рецепт</a></td>
+        <td><img src="https://img.freepik.com/premium-photo/layered-salad-cabbage-other-vegetables-with-pieces-red-fish-plate_230573-5799.jpg?w=900" width="200px"></td>
+    </tr>
+
+    <tr>
+        <td>Салат "Греческий"</td>
+        <td>4</td>
+        <td><a href="https://www.gastronom.ru/recipe/8085/salat-grecheskij">Рецепт</a></td>
+        <td><img src="https://img.freepik.com/free-photo/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil-healthy-food_2829-19693.jpg?w=900" width="200px"></td>
+    </tr>
+
+</table>
+</body>
+</html>
